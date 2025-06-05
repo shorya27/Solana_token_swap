@@ -17,7 +17,7 @@ import {
   ASSOCIATED_TOKEN_PROGRAM_ID,
 } from "@solana/spl-token";
 import { AnchorWallet } from "@solana/wallet-adapter-react";
-import IDL  from "/home/shorya/blockchain/solana/swap/target/idl/swap.json";
+import IDL  from "./swap.json";
 
 export const PROGRAM_ID = new PublicKey(IDL.address);
 export const CLUSTER_URL = "https://api.devnet.solana.com";
